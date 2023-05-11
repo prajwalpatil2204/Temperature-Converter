@@ -2,8 +2,8 @@
 
 This Repository contains project done during Charge Edu-Tech - Web Developmnet and Designing Internship
 
-#Project :
+# Project :
 Temperature Converter using HTML, CSS and JS
 
-Output:
+# Output:
 [Click here for Output]
