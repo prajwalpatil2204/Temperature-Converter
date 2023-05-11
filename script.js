@@ -64,6 +64,6 @@ const calculateTemp = () => {
 
     setTimeout(() => {
         window.location.reload();
-    }, 1500);
+    }, 10000);
 }
 
