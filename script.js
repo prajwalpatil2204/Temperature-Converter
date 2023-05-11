@@ -6,16 +6,16 @@ const tempLoad = () => {
     fa.style.color = "#ffa41b";
 
     setTimeout(() => {
-        fa.innerHTML = "&#xf2ca;";
+        fa.innerHTML = "&#xf2cb;";
         fa.style.color = "#ffa41b";
     }, 1000)
 
     setTimeout(() => {
-        fa.innerHTML = "&#xf2c9;";
+        fa.innerHTML = "&#xf2ca;";
     }, 2000)
 
     setTimeout(() => {
-        fa.innerHTML = "&#xf2c8;";
+        fa.innerHTML = "&#xf2c9;";
     }, 3000)
 
     setTimeout(() => {
@@ -56,10 +56,10 @@ const calculateTemp = () => {
     let result;
     if (valeTemp == "cel") {
         result = celTOfah(numberTemp);
-        document.getElementById('resultContainer').innerHTML = `= ${result}°Fahrenheit`;
+        document.getElementById('resultContainer').innerHTML = `= ${result} °Fahrenheit`;
     } else {
         result = fahTOcel(numberTemp);
-        document.getElementById('resultContainer').innerHTML = `= ${result}°Celsius`;
+        document.getElementById('resultContainer').innerHTML = `= ${result} °Celsius`;
     }
 
     setTimeout(() => {
